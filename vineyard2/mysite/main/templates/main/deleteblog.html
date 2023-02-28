@@ -1,0 +1,42 @@
+{% extends 'main/base.html' %}
+
+
+
+
+{% block title %}Delete Blog Post{% endblock %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<div class="container t-5 p-4  " >
+    <div
+      class=" align-items-center bg-white d-flex justify-content-center text-light"
+      style="min-height: 100vh">
+  
+              <div class="child p-5 "   style="background-color: #d9dbdf ; border-radius: 25px; "  >
+
+                <h5 class="text-center">Delete {{post.title}}</h5>
+                <br/>
+
+                <form  method="POST"  action="">
+
+                    {% csrf_token %}
+
+
+                    <button class="btn btn-danger"> Delete Post</button>
+                </form>
+
+
+              </div>
+
+      
+
+            
+
+
+    </div>
+</div>
+    
+  
+{% endblock %}

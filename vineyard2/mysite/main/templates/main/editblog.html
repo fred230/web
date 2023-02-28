@@ -1,0 +1,56 @@
+{% extends 'main/base.html' %}
+
+
+
+
+{% block title %}Edit Blog Post{% endblock %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<div class="container t-5 p-4  " >
+    <div
+      class=" align-items-center bg-white d-flex justify-content-center text-light"
+      style="min-height: 100vh">
+
+      {% if submitted %}
+
+      <p>
+        Your Blog post was added successfully
+      </p>
+
+
+   
+
+      {% else %}
+          
+              <div class="child p-5 "   style="background-color: #052c6e ; border-radius: 25px; "  >
+
+                <h5 class="text-center">Edit Blog</h5>
+
+                <form  method="POST"  action="{% url 'addblogpost' %}">
+
+                    {% csrf_token %}
+
+                    {{ form|crispy }}
+
+                    
+
+
+                    <input  type="submit" value="save" /> 
+                </form>
+
+
+              </div>
+
+      {% endif %}
+
+            
+
+
+    </div>
+</div>
+    
+  
+{% endblock %}

@@ -1,0 +1,818 @@
+{% extends 'main/base.html' %}
+{% block title %}  Vineyard Ministry {% endblock %}
+
+{% load static %}
+{% block content %}
+
+
+   <!-- ======= Breadcrumbs ======= -->
+   <section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>Piercing Team</h2>
+        <ol>
+          <li><a href="{% url 'index' %}">Home</a></li>
+          <li></li>
+        </ol>
+      </div>
+
+    </div>
+  </section><!-- End Breadcrumbs -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style = "background-image: url({% static 'assets/img/slide/slide-1.png' %})" >
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span>Vineyard Ministry </span></h2>
+    <div> <p>As part of UoNSDA church, our reason is mission. We seek to make an impact on our community through diverse services and outreach. We are passionate about Hospital ministry, High school ministry, Street missions and a lot more</p>
+              <div class="text-center"><a href="" class="btn-get-started">Get in touch</a></div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({%  static  'assets/img/slide/slide-2.jpeg ' %});">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>The piercing team</h2>
+              <p>Vineyard is a singing ministry. Our goal is to bring joy to the heart of our God through resounding praises in beautiful harmony.  Our rehearsals are always fun and full of energy divine. Come, let's make some amazing music together!</p>
+              <div class="text-center"><a href="" class="btn-get-started">Get in touch</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({%  static  'assets/img/slide/slide-3.jpeg ' %} );">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Our Associates</h2>
+              <p>Mentorship is an invaluable resource for young individuals looking to grow and develop their skills in a particular area. Our mentorship program through the partnership with our associates, offers personalized guidance in the field of your choice.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Get in touch</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us card">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          <div class="col-lg-6 about-container" data-aos="fade-right">
+            <div class="about-content">
+                <h2>The name Vineyard</h2>
+              
+                <h3> mistake or design?</h3>
+            </div>
+           
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <p>
+                The Bible is full of examples that can be used to inspire us in our daily lives. One example comes from John 15:16 which states, “You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last.” This verse speaks to the importance of bearing lasting fruit through our actions, words, deeds and ministries, activities that can best take place in a Vineyard(garden) setup.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>In Vineyard, you bear lasting fruit while also representing God's kingdom here on earth through faithful service.</li>
+              <li><i class="ri-check-double-line"></i> In Vineyard, you live out your calling with dignity and purpose.</li>
+              <li><i class="ri-check-double-line"></i> In Vineyard, you live as an emissary knowing that you are chosen by God as peculiar people extinguishing darkness and shewing forth praises in songs and in service to humanity.</li>
+            </ul>
+            <p class="fst-italic">
+                In short, Vineyards goal is to develop and empower vineyarders to become evangelists, mentors and talent appreciators in and out of campus.
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center " id="activities">
+              
+                <h2 >Vineyard Activities</h2>
+                
+             
+            </div>
+          </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class=" icon-box">
+              <div class="img-fluid ">
+
+                <img src="{%  static  'assets/img/slide/glasses-services.png  ' %}" class="img-fluid" alt="" height="">
+              
+               
+              </div>
+              <h4><a href="">Bible Study</a></h4>
+              <h5>Mondays 5pm-6:30pm</h5>
+              <p>Our insightful Bible studies will help you to gain new insights into the Bible's teachings and to develop a deeper understanding of God's word.</p>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class=" icon-box">
+              <div class="img-fluid ">
+
+                <img src="{%  static  'assets/img/slide/choir.png  ' %}" class="img-fluid" alt="" height="">
+              
+               
+              </div>
+              <h4><a href="">Choir Practices</a></h4>
+              <h5>Thursdays 5pm-6:30pm</h5>
+              <p>Our experience will help you improve your vocal skills while praising king Jesus together with fun People</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class=" icon-box">
+              <div class="img-fluid ">
+
+                <img src="{%  static  'assets/img/slide/sundown.png  ' %}" class="img-fluid" alt="" height="">
+              
+               
+              </div>
+              <h4><a href="">Sundowners </a></h4>
+              <h5>Saturdays 5pm-6:30pm</h5>
+              <p>The end of the sabbath, during this social settin, you get to enjoy an evening  of good company, delicious food, and stunning sunsets!</p>
+            </div>
+          </div>
+
+          
+
+          
+
+        
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div style="text-align: center;" class="section-header ">
+          <h2 class="title" >Ministry Event Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">February</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">March</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">April</a>
+          </li>
+        </ul>
+
+        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Schedule february -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Mon, February 6</time></div>
+              <div class="col-md-10">
+                <h4>Bible study</h4>
+                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Keynote <span>Brenden Legros</span></h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Schdule Day 2 -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+
+
+    
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts " class="recent-posts card sections-bg">
+      <div class="container posta" data-aos="fade-up">
+
+        <div class="section-header"  >
+          <h2>Amazing Resources</h2>
+          <p>Welcome to our Resources section! Here you'll find curated material and tools to help you enrich your spiritual life.You can explore our articles, tutorials, videos, and other materials on a wide range of topics, including music, business, health, education, and bible studies, bible study tools and so much more</p>
+        </div>
+
+        <div class="row gy-4 parent ">
+
+          <div class="col-xl-4 col-md-6 ">
+
+
+            <article class="one">
+
+              <div class="post-img">
+                <img src="{%  static  'assets/img/resources/bible.png' %}"  alt="" class="img-fluid">
+              </div>
+
+             
+                <h2 class="post-category">The Bible</h2>
+
+                <div class="title">
+                  <p>"In His word, God has committed to men the knowledge necessary for salvation. 
+  
+                  </p>
+  
+                    <p>The Holy Scriptures are to be accepted as an authoritative, infallible revelation of His will.
+  
+                    </p>
+  
+                </div>
+
+                <!--links-->
+                
+                
+                  
+                  <hr>
+                <div class="links">
+
+                  <button class="btn btn-grey" id="show-fields-btn">
+                    <i class="fas fa-chevron-down mr-2"></i>Recent Bible Study Topics
+                  </button>
+                  
+                 
+                    
+                      <div   id="more-fields" style="display: none;">
+
+                        <div class="row">
+
+                        <div class="col-sm">
+                          <div class="links-container">
+
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+
+
+                          </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+                
+      
+  
+                <div class="d-flex align-items-center">
+                
+                  <div class="post-meta">
+                    <p class="post-author">Maria Doe</p>
+                    <p class="post-date">
+                      <time datetime="2022-01-01">Jan 1, 2022</time>
+                    </p>
+                  </div>
+                </div>
+
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article class="two">
+
+              <div class="post-img">
+                <img src="{%  static  'assets/img/resources/music.jpg' %}"   alt="" class="img-fluid">
+              </div>
+
+              <h2 class="post-category" >Music</h2>
+
+              <div class="title">
+
+                
+                 
+                  
+                  <p >He who has bestowed upon us all the gifts that enable us to be workers together with God, expects His servants to cultivate their voices
+
+                </p>
+
+                
+
+              </div>
+
+              <hr>
+              <div class="links">
+
+                <button class="btn btn-grey" id="show-fields-btn">
+                  <i class="fas fa-chevron-down mr-2"></i>Focus on MUSIC
+                </button>
+                
+               
+                  
+                    <div   id="more-fields" style="display: none;">
+
+                      <div class="row">
+
+                      <div class="col-sm">
+                        <div class="links-container">
+
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                          <a href="#">Link 4</a>
+                          <a href="#">Link 5</a>
+
+
+                        </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              
+
+              
+
+              <div class="d-flex align-items-center">
+                
+                <div class="post-meta">
+                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article class="three">
+
+              <div class="post-img">
+                <img src="{%  static  'assets/img/resources/jesus.jpg' %}"   alt="" class="img-fluid">
+              </div>
+
+              <h2 class="post-category"  >Sermons</h2>
+
+              <div class="title">
+                <p>
+                  The Saviour made each work of healing an occasion for implanting divine principles in the mind and soul. This was the purpose of His work. He imparted earthly blessings, that He might incline the hearts of men to receive the gospel of His grace
+
+                </p>
+                <p>
+                  Christ might have occupied the highest place among the teachers of the Jewish nation, but He preferred rather to take the gospel to the poor.
+
+                </p>
+                
+              </div>
+
+              <hr>
+                <div class="links">
+
+                  <button class="btn btn-grey" id="show-fields-btn">
+                    <i class="fas fa-chevron-down mr-2"></i>Sermons
+                  </button>
+                  
+                 
+                    
+                      <div   id="more-fields" style="display: none;">
+
+                        <div class="row">
+
+                        <div class="col-sm">
+                          <div class="links-container">
+
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            <a href="#">Link 4</a>
+                            <a href="#">Link 5</a>
+
+
+                          </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+                
+
+              <div class="d-flex align-items-center">
+               
+                <div class="post-meta">
+                  <p class="post-author">Mark Dower</p>
+                  <p class="post-date">
+                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                  </p>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+ <!-- ======= Call To Action Section ======= -->
+        <section id="call-to-action" class="call-to-action">
+          <div class="container" data-aos="zoom-out">
+            <div class="row">
+              <div class="col-lg-9 text-center text-lg-start">
+                <h3 class="cta-title">Support Our activities </h3>
+                <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-lg-3 cta-btn-container text-center">
+                <a class="cta-btn align-middle" href="#">Support us</a>
+              </div>
+            </div>
+
+          </div>
+        </section><!--  End Call To Action Section -->
+
+
+
+        <section ><!-- video posting Section -->
+
+          
+          
+          
+
+
+
+
+        </section><!-- end of video posting Section -->
+
+
+
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Photo Gallery</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="{%  static  'assets/img/portfolio/portfolio-1.jpg ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2021</h4>
+              <p>Lesley, Tony and Mercy</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-1.jpg ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2021"><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="{%  static  'assets/img/portfolio/portfolio-20.jpg ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Faith, Ian, Beckey, </p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-20.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="{%  static  'assets/img/portfolio/portfolio-30.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2021</h4>
+              <p>Mildred and Madaga</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-30.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2021"><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="{%  static  'assets/img/portfolio/portfolio-40.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Merah, Ligala and a friend</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-40.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+            
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="{%  static  'assets/img/portfolio/portfolio-50.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Onditi and vineyarders</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-50.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="{%  static  'assets/img/portfolio/portfolio-60.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Faith, Elvis and Winnie</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-60.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="{%  static  'assets/img/portfolio/portfolio-70.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Fredah, Ian, Magoma and Alphonce</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-70.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+             
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="{%  static  'assets/img/portfolio/portfolio-80.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Ataya, Moffat</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-80.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="{%  static  'assets/img/portfolio/portfolio-90.jpg  ' %}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Reunion 2022</h4>
+              <p>Awilo, Bob and Fiona</p>
+              <a href="{%  static  'assets/img/portfolio/portfolio-90.jpg  ' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Reunion 2022"><i class="bx bx-plus"></i></a>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+  {% endblock  %}

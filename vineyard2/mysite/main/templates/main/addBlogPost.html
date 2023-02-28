@@ -1,0 +1,63 @@
+{% extends 'main/base.html' %}
+
+
+
+
+
+
+{% block title %}Add Blog Post{% endblock %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<div class="container t-5 p-4  " >
+    <div
+      class=" align-items-center bg-white d-flex justify-content-center text-light"
+      style="min-height: 100vh">
+
+      
+
+      <p>
+        Your Blog post was added successfully
+      </p>
+
+
+   
+
+      
+          
+              <div class="child p-5 "   style="background-color: #052c6e ; border-radius: 25px; "  >
+
+                <h5 class="text-center">New Blog</h5>
+
+                <form  method="POST"   enctype="multipart/form-data">
+
+                    {% csrf_token %}
+
+                    {{ form|crispy }}
+
+                    
+
+
+                    <input  type="submit" value="save" /> 
+                </form>
+
+
+              </div>
+
+
+      
+
+
+
+      
+
+      
+
+      
+    </div>
+</div>
+    
+  
+{% endblock %}
