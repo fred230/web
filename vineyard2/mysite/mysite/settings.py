@@ -130,7 +130,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = '/'
 
-STATICFILES_DIRS = [BASE_DIR/'static',]
+STATICFILES_DIRS = [REPOSITORY_ROOT + '/static',]
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(REPOSITORY_ROOT, 'static/')
