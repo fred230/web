@@ -133,7 +133,8 @@ LOGIN_REDIRECT_URL = '/'
 STATICFILES_DIRS = [REPOSITORY_ROOT + '/static',]
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(REPOSITORY_ROOT, 'static/')
+
+STATIC_ROOT = os.path.join(REPOSITORY_ROOT, 'staticfiles_build', 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(REPOSITORY_ROOT, 'media/')
